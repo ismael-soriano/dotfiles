@@ -1,0 +1,7 @@
+organization: igus-digITal
+polling_interval: 60
+projects:
+    - iERP
+    - Integration Platform
+    - iLike
+theme: catppuccin
