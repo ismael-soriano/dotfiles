@@ -1,0 +1,6 @@
+Host azure-work
+    Hostname ssh.dev.azure.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_azure
+    IdentitiesOnly yes
+    WarnWeakCrypto no
