@@ -7,4 +7,16 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.wrap = true
 vim.opt.linebreak = true
+
 vim.treesitter.language.register("yaml", "raml")
+
+vim.g.snacks_animate = false
+
+if vim.env.MERGED then
+    vim.opt.diffopt = {
+        "internal",
+        "filler",
+        "vertical",
+        "algorithm:myers",
+    }
+end
